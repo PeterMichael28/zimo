@@ -15,7 +15,7 @@ const Menu = () => {
  const pathname = usePathname();
  console.log(pathname);
  return (
-  <div className="h-[61px] absolute bottom-5 w-full max-w-[381px] backdrop-blur-[14px] z-40 bg-[#254200]  g-[linear-gradient(180deg,#000_0%,#254200)] rounded-[34px]">
+  <div className="h-[61px] absolute bottom-5 w-full max-w-[381px] backdrop-blur-[14px] z-40 bg-[#2542006c]  g-[linear-gradient(180deg,#000_0%,#254200)] rounded-[34px]">
    <div className="w-full h-full flex items-center justify-between px-[28px]">
     <Link
      href={'/home'}

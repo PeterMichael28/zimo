@@ -53,7 +53,7 @@ export default function WelcomePage() {
       <div className="mt-[35px]">
        <Button
         title={'Hop-in'}
-        onClick={router.push('/home')}
+        onClick={() => router.push('/home')}
        />
       </div>
      </div>
